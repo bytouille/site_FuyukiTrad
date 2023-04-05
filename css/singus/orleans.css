@@ -1,10 +1,10 @@
 .testo
 {
-	background: url("/././images/assets_page_singus/part1/orleans/ico_mark.png") center no-repeat;
+	background: url("../../images/assets_page_singus/part1/orleans/ico_mark.png") center no-repeat;
 }
 #fuyuki_persos
 {
-	background-image: url("/././images/assets_page_singus/part1/orleans/jeanne.png");
+	background-image: url("../../images/assets_page_singus/part1/orleans/jeanne.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
