@@ -1,0 +1,6 @@
+body
+{
+	background: url("images/fond.webp") fixed no-repeat;
+	overflow-x: hidden;
+	overflow-y:visible;
+}

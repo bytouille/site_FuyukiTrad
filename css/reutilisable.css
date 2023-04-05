@@ -1,0 +1,160 @@
+html
+{
+	max-height: 150px;
+}
+body
+{
+	overflow-x: hidden;
+	overflow-y: visible;
+	height: min-content;
+}
+.entete
+{ 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 0;
+	background-color: rgba(41, 41, 41, 0.8);
+	font-size: 160%;
+	position: relative;
+	height: 15vh;
+	bottom: 6vh;
+	color: rgb(0, 0, 0);
+	width: 100%;
+
+}
+footer
+{
+	text-align: center;
+	font-size: 100%;
+}
+
+.nmrl
+{
+	position: relative;
+	top: 47%;
+	list-style-type: none;
+	transition: ease-in 0.3s;
+}
+.nmrl:hover
+{
+	font-size: 200%;
+}
+.nmrl2
+{
+	position: relative;
+	top: 47%;
+	list-style-type: none;
+	transition: ease-in 0.3s;
+}
+.nmrl2:hover
+{
+	font-size: 200%;
+}
+a:link 
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.sections_singu
+{
+	background-color: rgba(41, 41, 41, 0.8);
+	width: 100%;
+	color: #FFFFFF;
+	position: relative;
+	bottom: 7vh;
+}
+.barre_top
+{
+	height: 0.1vh;
+	width: 98vw;
+	position: relative;
+	left: 0.2vw;
+	background-color: #FFFFFF;
+}
+.img_singu
+{
+	width: 20vw;
+	position: relative;
+	left: 40vw;
+}
+.titre_singu
+{
+	text-align: center;
+	font-size: 3rem;
+}
+
+.resume
+{
+	width: 30vw;
+	position: relative;
+	left: 5vw;
+	font-size: 2em;
+	top: 5vh;
+}
+.persos
+{
+	position: relative;
+	width: 30vw;
+	height: 85vh;
+	left: 63vw;
+	bottom: 25vh;
+	
+}
+#nom_perso
+{
+	position: relative;
+	font-size: 2.5rem;
+	bottom: 20vh;
+	width: 40vw;
+	left: 58vw;
+	text-align: center;
+}
+#droite
+{
+	position: relative;
+	left: 93.5vw;
+	top: 15vh;
+}
+#gauche
+{
+	position: relative;
+	left: 56vw;
+	top: 15vh;
+}
+#desc_perso
+{
+	position: absolute;
+	left: 51vw;
+	font-size: 1.7rem;
+	bottom: 13vh;
+	width: 45vw;
+	text-align: center;
+}
+.personnage
+{
+	position: absolute;
+	font-size: 3rem;
+}
+.pos_perso
+{
+	left: 71vw;
+}
+.prologue 
+{
+	left: 13vw;
+}
+.map
+{
+	left: 15vw;
+	top: 70vh;
+}
+.map_fuyuki
+{
+	width: 40vw;
+	position: absolute;
+	top: 80vh;
+	left: 1vw;
+}

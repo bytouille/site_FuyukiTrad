@@ -1,0 +1,110 @@
+body
+{
+	background: url("/images/assets_menu/fond.webp") fixed no-repeat;
+	overflow-x: hidden;
+	overflow-y:visible;
+}
+@keyframes singu_aller{
+	From { 
+		right : 211vw ;
+	}
+	To {
+		right : 49vw ;
+	}
+	
+}
+@keyframes singu2_aller{
+	From { 
+		right : 130vw ;
+	}
+	To {
+		right : 58vw ;
+	}
+	
+}
+@keyframes singu3_aller{
+	From { 
+		right : 130vw ;
+	}
+	To {
+		right : 22vw ;
+	}
+	
+}
+.liste_part1
+{
+	resize: both;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	animation-name: singu_aller ;
+	Animation-delay : 0s ;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0);
+	Animation-duration : 35s ;
+	animation-iteration-count: infinite;
+	list-style-type: none;
+}
+.liste_part2
+{
+	resize: both;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	animation-name: singu2_aller ;
+	Animation-delay : 0s ;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0);
+	Animation-duration : 15s ;
+	animation-iteration-count: infinite;
+	list-style-type: none;
+}
+.liste_part3
+{
+	resize: both;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	animation-name: singu3_aller ;
+	Animation-delay : 0s ;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0);
+	Animation-duration : 22s ;
+	animation-iteration-count: infinite;
+	list-style-type: none;
+}
+.sections
+{
+	background: rgba(41, 41, 41, 0.7);
+	position: relative;
+	width: 80%;
+	left: 10%;
+}
+h2
+{
+	text-align: center;
+	color: cornsilk;
+	font-size: 3rem;
+}
+#section1
+{
+	background: url("/images/assets_menu/part1.webp") center no-repeat ;
+}
+#section2
+{
+	background: url("/images/assets_menu/eor.webp") center no-repeat ;
+}
+#part2_section
+{
+	background: url("/images/assets_menu/fond.webp") center no-repeat;
+}
+.liste_partie
+{
+	position: relative;
+	left: 43%;
+	font-size: 4em;
+	list-style-image: url("/images/assets_global/puce.png");
+	color: whitesmoke;
+}
+.resume_partie
+{
+	color: white;
+	margin: 1vw;
+}

@@ -1,0 +1,39 @@
+body
+{
+	background: url("/./images/assets_menu/fond.webp") fixed no-repeat center;
+}
+section
+{
+    background-color: rgba(41, 41, 41, 0.8);
+    width: 99vw;
+    position: relative;
+
+}
+tr
+{
+	font-size: 2rem;
+	text-align: center;
+}
+p
+{
+	text-align: center;
+	font-size: 3rem;
+	color: aliceblue;
+}
+table
+{
+	border-spacing: 2vw 7vh;
+	width: 99vw;
+}
+.blue
+{
+	color:#4b93d5;
+}
+.orange
+{
+	color: #d6680e;
+}
+.jaune
+{
+	color: yellow;
+}

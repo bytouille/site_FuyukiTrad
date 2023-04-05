@@ -1,0 +1,14 @@
+.testo
+{
+	background: url("/././images/assets_page_singus/part1/okeanos/ico_mark.png") center no-repeat;
+}
+#fuyuki_persos
+{
+	background-image: url("/././images/assets_page_singus/part1/okeanos/drake.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.couleur
+{
+    color: rgb(12, 255, 202);
+}

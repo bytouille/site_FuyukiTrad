@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FuyukiTrad</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/reutilisable.css" />
+
+        <header>
+                <ul class="entete">
+                    <li class="nmrl">
+                        <a href="menu.html">
+                            <img src="images/assets_global/zemour2.jpg"/>
+                        </a>
+                    </li>
+                    <li class="nmrl"><a href="trailers.html" style="color:white;" title="">Trailers</a></li>
+                    <li class="nmrl2"><a href="equipe.html" style="color:white;" title="">L'Équipe</a></li>
+
+                    <li class="nmrl"><a href="avancee.html" style="color:white;" title="">Avancée</a></li>
+                    <li class="nmrl"><a href="login.html" style="color:white;" title="">Quiz</a></li>
+                </ul>
+
+            </header>
+</head>
+<body>
+    <section id="section_quiz">
+        <div id="mdp">
+
+            <p id="modif_pseudo"><label for="pseudo" class="oui"> Pseudo :</label>
+            <input type="text" class="oui" id="pseudo"/></p>
+        </br>
+        </br>
+            <p id="modif_mdp"><label for="mdp_input" class="oui" >Mot de Passe :</label>
+            <input class="oui" type="password" id="mdp_input"/></p>
+
+            <p class="oui" id="reponse"></p>
+
+            <button class = "oui" id="wati_button">Valider</button>
+        </div>
+
+        <div class="formulaire">
+            <p id="question">
+
+            </p>
+            <p id="reponses">
+
+            </p>
+            <p id = "cgmt_suivant">
+            <button id="suivant" onclick="suivante()">Question suivante</button>
+            </p>
+        </div>
+    
+
+    </section>
+
+<script src="js/misc.js"></script>
+</body> 
+</html>

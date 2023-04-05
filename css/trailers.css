@@ -1,0 +1,38 @@
+body
+{
+	background: url("/images/assets_menu/fond.webp") fixed no-repeat;
+	overflow-x: hidden;
+	overflow-y:visible;
+}
+video
+{
+    width: 40vw;
+    height: auto;
+}
+.trailers
+{
+    list-style-image: url("/images/assets_global/puce.png");
+    font-size: 2rem;
+    color: white;
+}
+section
+{
+    background-color: rgba(41, 41, 41, 0.8);
+    width: 90vw;
+    position: relative;
+    left: 4vw;
+}
+h1
+{
+    text-align: center;
+}
+.liste_videos
+{
+    position: relative;
+    left: 17vw;
+}
+.event
+{
+    position: relative;
+    left: 2vw;
+}
