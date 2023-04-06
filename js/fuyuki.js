@@ -9,13 +9,13 @@ dico_desc_persos = {1:"La directrice de Chaldea et membre de la famille Animusph
 function changer_image_droite(){
     if (7 >= i){
         i += 1 ;
-        document.getElementById("fuyuki_persos").style.backgroundImage = "url('/././images/assets_page_singus/"+ dico_fuyuki[i];
+        document.getElementById("fuyuki_persos").style.backgroundImage = "url('../../images/assets_page_singus/"+ dico_fuyuki[i];
         document.getElementById("nom_perso").innerHTML = dico_nom_persos[i];
         document.getElementById("desc_perso").innerHTML = dico_desc_persos[i];
     }
     else {
         i = 1
-        document.getElementById("fuyuki_persos").style.backgroundImage = "url('/././images/assets_page_singus/"+ dico_fuyuki[1];
+        document.getElementById("fuyuki_persos").style.backgroundImage = "url('../../images/assets_page_singus/"+ dico_fuyuki[1];
         document.getElementById("nom_perso").innerHTML = dico_nom_persos[i];
         document.getElementById("desc_perso").innerHTML = dico_desc_persos[i];
 
@@ -25,14 +25,14 @@ function changer_image_droite(){
 function changer_image_gauche(){
     if (i >= 2 ){
         i -= 1 ;        
-        document.getElementById("fuyuki_persos").style.backgroundImage = "url('/././images/assets_page_singus/"+ dico_fuyuki[i];
+        document.getElementById("fuyuki_persos").style.backgroundImage = "url('../../images/assets_page_singus/"+ dico_fuyuki[i];
         document.getElementById("nom_perso").innerHTML = dico_nom_persos[i];
         document.getElementById("desc_perso").innerHTML = dico_desc_persos[i];
 
     }
     else {
         i = 8
-        document.getElementById("fuyuki_persos").style.backgroundImage = "url('/././images/assets_page_singus/"+ dico_fuyuki[8];
+        document.getElementById("fuyuki_persos").style.backgroundImage = "url('../../images/assets_page_singus/"+ dico_fuyuki[8];
         document.getElementById("nom_perso").innerHTML = dico_nom_persos[i];
         document.getElementById("desc_perso").innerHTML = dico_desc_persos[i];
     }
