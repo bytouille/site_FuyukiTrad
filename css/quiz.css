@@ -1,6 +1,6 @@
 body
 {
-	background: url("images/fond.webp") fixed no-repeat;
+	background: url("../images/assets_menu/fond.webp") fixed no-repeat center;
 	overflow-x: hidden;
 	overflow-y:visible;
 }

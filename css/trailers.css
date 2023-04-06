@@ -1,6 +1,6 @@
 body
 {
-	background: url("/images/assets_menu/fond.webp") fixed no-repeat;
+	background: url("../images/assets_menu/fond.webp") fixed no-repeat center;
 	overflow-x: hidden;
 	overflow-y:visible;
 }
@@ -11,7 +11,7 @@ video
 }
 .trailers
 {
-    list-style-image: url("/images/assets_global/puce.png");
+    list-style-image: url("../images/assets_global/puce.png");
     font-size: 2rem;
     color: white;
 }

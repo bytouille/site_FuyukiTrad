@@ -1,6 +1,6 @@
 body
 {
-	background: url("/images/assets_menu/fond.webp") fixed no-repeat;
+	background: url("../images/assets_menu/fond.webp") fixed no-repeat center;
 	overflow-x: hidden;
 	overflow-y:visible;
 }
@@ -85,22 +85,22 @@ h2
 }
 #section1
 {
-	background: url("/images/assets_menu/part1.webp") center no-repeat ;
+	background: url("../images/assets_menu/part1.webp") center no-repeat ;
 }
 #section2
 {
-	background: url("/images/assets_menu/eor.webp") center no-repeat ;
+	background: url("../images/assets_menu/eor.webp") center no-repeat ;
 }
 #part2_section
 {
-	background: url("/images/assets_menu/fond.webp") center no-repeat;
+	background: url("../images/assets_menu/fond.webp") center no-repeat;
 }
 .liste_partie
 {
 	position: relative;
 	left: 43%;
 	font-size: 4em;
-	list-style-image: url("/images/assets_global/puce.png");
+	list-style-image: url("../images/assets_global/puce.png");
 	color: whitesmoke;
 }
 .resume_partie
